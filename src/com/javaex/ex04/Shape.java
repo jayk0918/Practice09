@@ -3,7 +3,7 @@ package com.javaex.ex04;
 public abstract class Shape {
     
 	// 필드
-	int countSides;
+	private int countSides;
 
 	// 생성자
 	public Shape() {}
@@ -18,8 +18,8 @@ public abstract class Shape {
 	}
 	
 	// 메소드 일반
-	abstract double getArea();
-	abstract double getPerimeter();
+	public abstract double getArea();
+	public abstract double getPerimeter();
 	
 	
     

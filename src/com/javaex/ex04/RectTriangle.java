@@ -11,7 +11,7 @@ public class RectTriangle extends Shape {
 		super();
 	}
 
-	public RectTriangle(int width, int height) {
+	public RectTriangle(double width, double height) {
 		super();
 		this.width = width;
 		this.height = height;
@@ -22,7 +22,7 @@ public class RectTriangle extends Shape {
 		return width;
 	}
 
-	public void setWidth(int width) {
+	public void setWidth(double width) {
 		this.width = width;
 	}
 
@@ -30,7 +30,7 @@ public class RectTriangle extends Shape {
 		return height;
 	}
 
-	public void setHeight(int height) {
+	public void setHeight(double height) {
 		this.height = height;
 	}
 	
